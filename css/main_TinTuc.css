@@ -1,0 +1,147 @@
+/**/
+
+#main .wap .section {
+  display: inline-table;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+}
+
+#main .wap .section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .section a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+}
+
+#main .wap .section p {
+  float: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #990000;
+}
+
+/**/
+
+#main .wap .wap__content {
+  display: flex;
+}
+
+#main .wap .wap-left {
+  float: left;
+  width: 24%;
+  border-radius: 10px 0px 0px 0px;
+  border: 1px solid #990000;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+#main .wap .wap-left h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: both;
+  padding: 5px 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #990000;
+  border-radius: 10px 0px 0px 0px;
+}
+
+#main .wap .wap-left img {
+  width: 150px;
+  height: 100px;
+  padding: 10px 20px 10px 13px;
+  object-fit: cover;
+}
+
+#main .wap .wap-left p {
+  font-size: 17px;
+  margin: 0px 95px 10px 13px;
+  border-bottom: 1px solid #990000;
+  width: 241px;
+  padding: 0px 20px 10px 0px;
+}
+
+#main .wap .wap-left p:hover {
+  color: #990000;
+}
+
+#main .wap .wap-left .blog-tags {
+  min-height: 130px;
+}
+
+#main .wap .wap-left .blog-tags h4 {
+  font-size: 28px;
+  margin: 10px 0px 0px 20px;
+}
+
+#main .wap .wap-left .blog-tags a {
+  border: 1px solid black;
+  margin: 5px 10px;
+  padding: 5px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #dbdbdb;
+  border-radius: 3px;
+}
+
+#main .wap .wap-left .blog-tags a:hover {
+  background-color: gray;
+}
+
+#main .wap .wap-right {
+  margin-left: 2rem;
+  flex: 1;
+}
+
+#main .wap .wap-right .text {
+  width: 800px;
+  min-height: 220px;
+  border-bottom: 1px solid #990000;
+  margin-top: 20px;
+}
+
+#main .wap .wap-right .text img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  object-fit: cover;
+}
+
+#main .wap .wap-right .text div {
+  margin-left: 245px;
+}
+
+#main .wap .wap-right .text div i {
+  margin: 10px 0px 10px 0px;
+  display: block;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0px 0px 5px 0px;
+}
+
+#main .wap .wap-right .text div h2 {
+  margin: 20px 0px;
+  font-size: 24px;
+}
+
+#main .wap .wap-right .text div p {
+  font-size: 1.6em;
+}
+
+#main .wap .wap-right .text div a {
+  margin: 10px 0px;
+  display: block;
+  font-size: 18px;
+}
+
+#main .wap .wap-right .text div a:hover {
+  color: #990000;
+}
+
+/**/

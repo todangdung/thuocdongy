@@ -1,0 +1,112 @@
+#content {
+    background-image: url('../images/bg-login.png');
+    width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    height: 100%;
+    min-height: 657px;
+}
+
+#wap {
+    margin: 50px 0px 0px 500px;
+    background-color: #FFFFCC;
+    width: 400px;
+    min-height: 500px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#wap .header h2 {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+#wap .main input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 15px 0px 0px 40px;
+    padding-left: 20px;
+    font-size: 12px;
+
+}
+
+#wap .sidebar label {
+    margin: 15px 0px 0px 10px;
+    width: 150px;
+    display: block;
+    float: left;
+
+}
+
+#wap .sidebar input {
+    margin: 20px 0px 0px 40px;
+    float: left;
+    display: block;
+}
+
+#wap .sidebar u {
+    display: inline-table;
+    width: 130px;
+    margin: 15px 0px 0px 33px;
+}
+
+#wap .sidebar-content {
+    margin-top: 20px;
+}
+
+#wap .sidebar-content button {
+    width: 325px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: block;
+    margin: 0px auto;
+    background-color: #990000;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#wap .sidebar-content button:hover {
+    background-color: #fff;
+    border: 1px solid #999000;
+    color: #990000;
+}
+
+#wap .login-footer p {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.google-rate:before {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Brands";
+    content: "\f0d5";
+    color: #990000;
+    font-size: 50px;
+    margin-left: 183px;
+}
+
+#button {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#content:after {
+    content: "";
+    width: 100%;
+    min-height: 650px;
+    background: rgb(255 255 204 / 34%);
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+#wap {
+    z-index: 999;
+}

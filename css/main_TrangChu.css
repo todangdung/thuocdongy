@@ -1,0 +1,219 @@
+#slider .slider-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#slider .slider-content .wap {
+    width: 35%;
+}
+
+#slider .slider-content__image {
+    margin-left: 2rem;
+    flex: 1;
+    max-height: 100%;
+}
+
+#slider .slider-content__image img {
+    width: 100%;
+}
+
+#slider .slider-content .wap h4 {
+    color: #fff;
+    background-color: #990000;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px 0px 0px 0px;
+    padding: 10px;
+}
+
+#slider .slider-content .wap ul {
+    border: 1px solid gray;
+}
+
+#slider .slider-content .wap ul li a {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+#slider .slider-content .wap ul li a:hover {
+    color: #ff9900;
+}
+
+#content .section h4 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background-color: #990000;
+    width: 400px;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+}
+
+#content .section .wap {
+    border-top: 5px solid #990000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .section .wap .text {
+    border: 1px solid #525151;
+    width: 258px;
+    height: 265px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    box-shadow: 8px 1px 10px 0px rgb(0 0 0 / 38%);
+}
+
+#content .section .wap .text img {
+    width: 240px;
+    height: 180px;
+    display: block;
+    margin: 0px auto;
+    padding: 9px;
+    object-fit: cover;
+}
+
+#content .section .wap:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#content .section .wap .text p {
+    font-size: 18px;
+    width: 236px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#content .section h3 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background-color: #990000;
+    width: 950px;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+#feedback .wap {
+    border-top: 5px solid #990000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedback h4 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background-color: #990000;
+    width: 400px;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+#feedback .wap .content {
+    margin: 0 1rem;
+}
+
+#feedback .wap .content img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+#feedback .wap:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#feedback .wap .content .text {
+    width: 350px;
+    background-color: #ffccff;
+    padding: 10px;
+    height: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #dbdbdb;
+}
+
+#feedback .wap .content .text h5 {
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+#feedback .wap .content .text p {
+    padding: 5px;
+    color: black;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#center {
+    margin: 50px 0;
+}
+
+#center h4 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background-color: #990000;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#center .wap {
+    border-top: 5px solid #900000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center .wap:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#center .wap .content {
+    border: 1px solid #525151;
+    width: 258px;
+    height: 265px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    box-shadow: 8px 1px 10px 0px rgb(0 0 0 / 38%);
+}
+
+#center .wap .content img {
+    width: 240px;
+    height: 180px;
+    display: block;
+    margin: 0px auto;
+    padding: 9px;
+    object-fit: cover;
+}
+
+#center .wap .content p {
+    font-size: 18px;
+    width: 236px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: justify;
+}

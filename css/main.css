@@ -1,0 +1,344 @@
+/*#header*/
+#header {
+  background: #212121;
+  height: 70px;
+}
+
+#header:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*#logo*/
+#logo {
+  float: left;
+  margin-left: 100px;
+}
+
+#logo img {
+  height: 80px;
+  width: 130px;
+}
+
+/*#nav*/
+#nav {
+  float: right;
+  padding: 30px;
+}
+
+#nav ul li {
+  display: inline-table;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+#nav ul li a {
+  color: #fff;
+}
+
+#nav ul li a:hover {
+  color: #ffff00;
+}
+
+/*slider*/
+#slider {
+  background-image: url("../images/bg04.jfif");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 480px;
+  position: relative;
+}
+
+#slider .slider-content {
+  position: absolute;
+  background: transparent;
+  left: 50%;
+  top: 100px;
+}
+
+#slider .slider-content h1 {
+  color: #990000;
+  margin-bottom: 20px;
+}
+
+#slider .slider-content ul {
+  list-style: circle;
+}
+
+#slider .slider-content ul li {
+  margin-bottom: 10px;
+  font-size: 15pt;
+  color: #990000;
+}
+
+/*#content*/
+#content {
+  width: auto;
+  background-color: #ffffcc;
+  min-height: 553px;
+}
+
+#content > h3 {
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+  color: #990000;
+}
+
+#content .content-wrap {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+#content .content-wrap .item {
+  float: left;
+  width: 32.5%;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: #f5f5f5;
+}
+
+#content .content-wrap .item a img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#content .content-wrap:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#content .content-wrap .item a {
+  position: relative;
+}
+
+#content .content-wrap .item a h3 {
+  position: absolute;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #ff3d00;
+  color: #fff;
+  font-weight: bold;
+  bottom: 0;
+  text-align: center;
+}
+
+#content .content-wrap .item .content-item p {
+  margin: 20px 10px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #47425d;
+  font-size: 16px;
+}
+
+/*#information*/
+#information {
+  padding-top: 30px;
+  background: #ffffcc;
+  width: auto;
+  max-width: 1400px;
+  min-height: 570px;
+  margin: 0px auto;
+  background-image: url("../images/bg02.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  background-position: top center;
+}
+
+#information h3 {
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+  color: #990000;
+  background: transparent;
+}
+
+#information img {
+  width: 416px;
+  height: 409px;
+  margin-left: 150px;
+  float: left;
+  line-height: 1.75em;
+  background: rgb(255 255 255 / 45%);
+}
+
+#information .information-content {
+  margin: 20px 10px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #47425d;
+  margin-left: 650px;
+  margin-right: 50px;
+  background: rgb(255 255 255 / 0%);
+  padding: 20px;
+}
+
+#information .information-content:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#information .information-content h4 {
+  font-size: 18px;
+  color: black;
+  color: #47425d;
+}
+
+#information .information-content p {
+  padding: 5px;
+}
+
+#information .information-content input {
+  margin-left: 250px;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px;
+  background: red;
+}
+
+#information .information-content input:hover {
+  background: #cc0000;
+  border-radius: 10px;
+}
+
+#use {
+  width: auto;
+  background-color: #ffffcc;
+  min-height: 550px;
+}
+
+#use h3 {
+  text-align: center;
+  font-size: 28px;
+  color: #990000;
+  padding: 20px;
+}
+
+#use .use-wap {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+#use .use-wap:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#use .use-wap .use-content {
+  float: left;
+  width: 32.5%;
+}
+
+#use .use-wap .use-content img {
+  width: 300px;
+  height: 300px;
+  margin-left: 54px;
+}
+
+#use .use-wap .use-content h5 {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  background-color: #dd0000;
+  font-weight: bold;
+}
+
+#use .use-wap .use-content p {
+  margin: 20px 10px 20px 20px;
+  text-align: justify;
+  line-height: 1.75em;
+  color: #47425d;
+  font-size: 16px;
+}
+
+#ingredient {
+  width: auto;
+  background-image: url("../images/bg04.jfif");
+  min-height: 605px;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  padding-top: 30px;
+  margin: 0px auto;
+  background-size: 100% 600px;
+  background-position: top center;
+  position: relative;
+}
+
+#ingredient h4 {
+  font-size: 28px;
+  text-align: center;
+  color: #47425d;
+}
+
+#ingredient .ingredient-images {
+  float: left;
+  width: 32%;
+  padding: 20px;
+}
+
+#ingredient .ingredient-images img {
+  width: 400px;
+  height: 500px;
+  margin-left: 80px;
+}
+
+#ingredient .ingredient-content {
+  position: absolute;
+  left: 50%;
+  padding: 20px;
+  line-height: 2.8em;
+  font-size: 16px;
+  color: #47425d;
+}
+
+#ingredient .ingredient-content p b {
+  color: #990000;
+}
+
+#principles {
+  padding-top: 30px;
+  background: #ffffcc;
+  max-width: 1400px;
+  min-height: 570px;
+  position: relative;
+}
+
+#principles h4 {
+  color: #990000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
+
+#principles .principles-content {
+  float: left;
+  width: 50%;
+  line-height: 1.8em;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+#principles .principles-content p b {
+  color: red;
+}
+
+#principles .principles-images {
+  float: right;
+  position: absolute;
+  width: 30%;
+}
+
+#principles .principles-images img {
+  width: 400px;
+  height: 500px;
+}

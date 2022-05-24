@@ -1,0 +1,258 @@
+/**/
+
+#main .wap .section {
+  display: inline-table;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+}
+
+#main .wap .section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .section a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+}
+
+#main .wap .section p {
+  float: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #990000;
+}
+
+/**/
+#main .wap .wap-left {
+  float: left;
+  width: 24%;
+  border-radius: 10px 0px 0px 0px;
+  margin: 20px 50px 0px 0px;
+}
+
+#main .wap .wap-left .text-02 {
+  border: 1px solid #990000;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px 0px 0px 0px;
+}
+
+#main .wap .wap-left .text-01 {
+  border: 1px solid #990000;
+  background-color: #fff;
+}
+
+#main .wap .wap-left h4 {
+  color: #fff;
+  background-color: #990000;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px 0px 0px 0px;
+  padding: 10px;
+}
+
+#main .wap .wap-left ul {
+  border: 1px solid gray;
+}
+
+#main .wap .wap-left ul li a {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+#main .wap .wap-left ul li a:hover {
+  color: #ff9900;
+}
+
+#main .wap:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .wap-left h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #990000;
+  border-radius: 10px 0px 0px 0px;
+}
+
+#main .wap .wap-left img {
+  width: 150px;
+  height: 100px;
+  padding: 10px 20px 10px 13px;
+}
+
+#main .wap .wap-left p {
+  font-size: 17px;
+  margin: 0px 95px 10px 13px;
+  border-bottom: 1px solid #990000;
+  width: 241px;
+  padding: 0px 20px 10px 0px;
+}
+
+#main .wap .wap-left p:hover {
+  color: #990000;
+}
+
+#main .wap-right {
+  float: left;
+  width: 71%;
+  margin-top: 20px;
+}
+
+#main .wap-right .contact {
+  width: 100%;
+}
+
+#main .wap-right .content:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap-right .content img {
+  width: 400px;
+  height: 405px;
+  display: block;
+  float: left;
+}
+
+#main .wap-right .content h3 {
+  font-size: 24px;
+  color: #990000;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 20px;
+}
+
+#main .wap-right .content p {
+  margin: 20px 0px 20px 20px;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+#main .wap-right .content h4 {
+  margin: 20px 0px 29px 20px;
+  font-size: 22px;
+  color: red;
+  float: left;
+  width: 50%;
+}
+
+.call-buy-rate {
+  background-color: #00cc00;
+  color: #fff;
+  float: left;
+  border: 1px solid #00cc00;
+  padding-left: 2px;
+}
+
+.call-buy-rate h6 {
+  width: 115px;
+  font-size: 15px;
+  background-color: #fff;
+  height: 24px;
+  color: black;
+  padding: 8px 0px 0px 10px;
+  float: right;
+}
+
+.fb-rate {
+  float: left;
+  padding-left: 2px;
+  background-color: #003399;
+}
+
+.fb-rate h5 {
+  width: 115px;
+  font-size: 15px;
+  height: 24px;
+  color: #fff;
+  padding: 8px 0px 0px 10px;
+  float: right;
+}
+
+.tw-rate {
+  background-color: #003399;
+  float: left;
+  padding-left: 2px;
+}
+
+.tw-rate h5 {
+  width: 115px;
+  font-size: 15px;
+  height: 24px;
+  color: black;
+  padding: 8px 0px 0px 10px;
+  float: right;
+  color: #fff;
+}
+
+.ins-rate {
+  background-color: #003399;
+  color: #fff;
+  float: left;
+  padding-left: 2px;
+}
+
+.ins-rate h5 {
+  width: 115px;
+  font-size: 15px;
+  height: 24px;
+  color: black;
+  padding: 9px 0px 0px 10px;
+  color: #fff;
+  float: right;
+}
+
+#main .wap-right .content div:before {
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Brands";
+  font-size: 30px;
+  color: #fff;
+}
+
+.call-buy-rate:before {
+  content: "\f2a0";
+  background-color: #00cc00;
+}
+
+.fb-rate:before {
+  content: "\f082";
+}
+
+.tw-rate:before {
+  content: "\f081";
+}
+
+.ins-rate:before {
+  content: "\e055";
+}
+
+#main .wap-right h4 {
+  font-size: 22px;
+  margin: 20px 0px;
+  display: block;
+}
+
+#main .wap-right p {
+  font-size: 1.2em;
+  margin: 20px 0px;
+  display: block;
+}
+
+/**/

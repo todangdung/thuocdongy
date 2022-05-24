@@ -1,0 +1,179 @@
+#header {
+    width: 100%;
+}
+
+#header .contact {
+    background-color: #c0c0c0;
+    width: 100%;
+}
+
+#header .contact .contact__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.home-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f015";
+}
+
+#header .contact .left {
+    display: flex;
+    align-items: center;
+}
+
+#header .contact .left>* {
+    margin-right: 10px;
+}
+
+.email-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f199";
+}
+
+.call-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f2a0";
+}
+
+#header .contact .right {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .contact .right div {
+    display: flex;
+    align-items: center;
+}
+
+#header .contact .right div>* {
+    margin-right: 10px;
+}
+
+#header .background {
+    height: 220px;
+}
+
+#header .background img {
+    width: 100%;
+    height: 100%;
+}
+
+#header .nav {
+    background-color: #990000;
+}
+
+#header .nav .nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .nav .wap {
+    display: flex;
+    align-items: center;
+}
+
+#header .nav .wap div {
+    font-size: 25px;
+    display: inline-table;
+    width: auto;
+    width: 120px;
+    height: 35px;
+    transition: border-bottom 0.2s;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+    border-bottom: 5px solid transparent;
+}
+
+#header .nav .wap div a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#header .nav .wap .main {
+    border-bottom: 5px solid #ff9900;
+}
+
+#header .nav .wap div:hover {
+    background-color: #f5f5f5;
+    border-bottom: 5px solid #ff9900;
+}
+
+#header .nav .wap div a:hover {
+    color: #cc3300;
+    font-weight: bold;
+}
+
+#header .nav .login a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cart-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f217";
+    font-size: 26px;
+    color: #fff;
+}
+
+#slider .sidebar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+#slider .sidebar .content {
+    display: flex;
+    align-items: center;
+    border: 3px solid red;
+    margin: 30px 0px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#slider .sidebar .content div {
+    margin-right: 10px;
+}
+
+#slider .sidebar .content div:before {
+    font-size: 45px;
+}
+
+#slider .sidebar:after,
+#slider .sidebar .content:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.dola-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f155";
+    color: #990000;
+}
+
+.truck-rate:before {
+    content: "\f4df";
+    font-family: "Font Awesome 5 Pro";
+    color: #990000;
+}
+
+.leaves-rate:before {
+    content: "\f06c";
+    color: #990000;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.phone-rate:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f2a0";
+    color: #990000;
+}

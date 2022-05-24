@@ -1,0 +1,175 @@
+/**/
+
+#main .wap .wap-left {
+  max-width: 300px;
+  float: left;
+}
+
+#main .wap:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .wap-left .text-01 {
+  width: 250px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px 0px 0px 0px;
+}
+
+#main .wap .wap-left .text-01 h2 {
+  background-color: #990000;
+  border-radius: 10px 0px 0px 0px;
+  padding: 5px;
+  color: #fff;
+}
+
+#main .wap .wap-left .text-01 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#main .wap .wap-left .text-01 p {
+  font-weight: bold;
+  padding: 5px 0px;
+  color: #990000;
+  font-size: 16px;
+  text-align: center;
+}
+
+#main .wap .wap-left .text-01 h3 {
+  background-color: #990000;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+  color: #fff;
+  width: 140px;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+}
+
+#main .wap .wap-left .text-01 h4 {
+  background-color: #990000;
+  color: #fff;
+  padding: 10px;
+}
+
+#main .wap .wap-left h2 {
+  color: #990000;
+  padding: 10px 0pc 10px 0px;
+}
+
+#main .wap .wap-left .text-02 {
+  background-color: #ffffff;
+  width: 250px;
+}
+
+#main .wap .wap-left .text-02 h3 {
+  font-weight: both;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin: 5px;
+}
+
+#main .wap .wap-left .text-02 p {
+  font-size: 1em;
+  padding: 5px 0px;
+  margin: 5px;
+}
+
+#main .wap .wap-right img {
+  width: 370px;
+  height: 350px;
+  margin-left: 60px;
+  float: left;
+  object-fit: cover;
+}
+
+#main .wap .wap-right .content {
+  margin-left: 710px;
+}
+
+#main .wap .wap-right .content h3 {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+#main .wap .wap-right .content h4 {
+  font-size: 20px;
+  color: red;
+}
+
+#main .wap .wap-right .content p {
+  padding: 10px 0px;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 10px 0px 0px 40px;
+}
+
+#main .wap .wap-right .content b {
+  font-size: 18px;
+}
+
+#main .wap .wap-right .content .button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ff0000;
+  width: 400px;
+  margin: 40px 0px 0px 37px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#main .wap .wap-right .content .button:hover {
+  background-color: #dd0000;
+  font-weight: bold;
+}
+
+#main .wap .wap-right .content .button a {
+  color: #fff;
+}
+
+.square-check-rate:before {
+  color: #990000;
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Brands";
+  font-size: 30px;
+  content: "\f14a";
+  float: left;
+  margin-top: 4px;
+}
+
+/**/
+#main .wap {
+  margin-left: 80px;
+  max-width: 1200px;
+}
+
+#main .wap .section {
+  display: inline-table;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+}
+
+#main .wap .section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .section a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+}
+
+#main .wap .section p {
+  float: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #990000;
+}
+
+/**/

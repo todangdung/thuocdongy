@@ -1,0 +1,170 @@
+/**/
+
+#main .wap:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .section {
+  display: inline-table;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+}
+
+#main .wap .section a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+}
+
+#main .wap .section p {
+  float: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #990000;
+}
+
+#main .wap h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  font-size: 40px;
+}
+
+#main .wap .left {
+  float: left;
+  width: 60%;
+}
+
+#main .wap .left:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .left .form {
+  border: 2px solid black;
+  width: 617px;
+  height: 15px;
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  float: left;
+}
+
+#main .wap .left .form label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#main .wap .left .form input {
+  border-style: none;
+  background-color: #84050500;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 16px;
+  width: 450px;
+}
+
+#main .wap .left .form-button {
+  border: 2px solid black;
+  width: 617px;
+  height: 50px;
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  float: left;
+}
+
+#main .wap .left .form-button:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main .wap .left .form-button label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#main .wap .left .form-button textarea {
+  background-color: #84050500;
+  margin-top: 5px;
+  font-size: 16px;
+  width: 617px;
+  border-style: none;
+  outline: none;
+  font-family: arial;
+}
+
+#main .wap .left .form-footer {
+  float: left;
+}
+
+#main .wap .left .form-footer input:hover {
+  background: #ee0000;
+}
+
+#main .wap .left .form-footer input {
+  background-color: #da5545;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+  width: 649px;
+  height: 50px;
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  float: left;
+  color: #fff;
+}
+
+#main .wap .right h4 {
+  padding: 20px 0px 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#main .wap .right h2 {
+  padding: 10px 0px 0px 0px;
+  font-size: 36px;
+}
+
+#main .wap .right i {
+  display: block;
+}
+
+#main .wap .right h5 {
+  font-size: 18px;
+  float: left;
+  display: block;
+  padding: 10px 0px;
+}
+
+#main .wap .right p {
+  font-size: 17px;
+  padding: 11px 0px;
+  margin-left: 10px;
+  display: inline-table;
+}
+
+#main .wap .right a {
+  background-color: #ffffcc;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+  width: 400px;
+  height: 20px;
+  padding: 15px;
+  margin: 177px 0px 0px 0px;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+}
+
+/**/

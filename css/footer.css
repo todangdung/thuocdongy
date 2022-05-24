@@ -1,0 +1,152 @@
+#footer {
+    width: 100%;
+}
+
+#footer .content {
+    min-height: 60px;
+    margin-top: 50px;
+    background-color: #990000;
+    position: relative;
+}
+
+#footer .wap:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#footer .content h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 65px;
+}
+
+#footer .content p {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 80px;
+}
+
+#footer .content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .content input {
+    width: 172px;
+    height: 37px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#footer .content input:hover {
+    background-color: #990000;
+    font-weight: bold;
+}
+
+#footer .wap {
+    padding-top: 2rem;
+    background-color: #cc3300;
+    min-height: 310px;
+}
+
+#footer .wap .container {
+    display: flex;
+    align-items: unset;
+    justify-content: space-between;
+}
+
+#footer .wap .wap-content {}
+
+#footer .wap .wap-content h4 {
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0px 0px 80px;
+}
+
+#footer .wap .wap-content a {
+    margin: 10px 0px 0px 80px;
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    width: 170px;
+}
+
+#footer .wap .wap-content p {
+    color: #fff;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0px 0px 80px;
+}
+
+.location-rate:before {
+    content: "\f3c5";
+    color: #fff;
+    position: absolute;
+    margin: 10px 0px 0px 25px;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.phone-alt-rate:before {
+    content: "\f879";
+    color: #fff;
+    position: absolute;
+    font-family: "Font Awesome 5 Pro";
+    margin: 7px 0px 0px 25px;
+}
+
+.mail-footer-rate:before {
+    content: "\f0e0";
+    color: #fff;
+    position: absolute;
+    margin: 7px 0px 0px 25px;
+    font-family: "Font Awesome 5 Pro";
+}
+
+#footer .wap .wap-content div {
+    margin-left: 30px;
+}
+
+#footer .wap .wap-content a:hover {
+    color: yellow;
+}
+
+#footer .wap .wap-content img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px 0px 71px;
+    display: block;
+}
+
+#page-info {
+    min-height: 34px;
+    background-color: #990000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-info p {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+}
+
+#page-info div {
+    float: right;
+    margin-right: 20px;
+}
+
+#page-info div:before {
+    color: gray;
+    font-size: 30px;
+}
